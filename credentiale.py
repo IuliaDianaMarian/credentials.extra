@@ -38,8 +38,8 @@ while True:
     user=input()
     if user not in database.keys():
         print('there is no user registered with this username. do you wish to create a new account with this username? type yes or no')
-        input=input()
-        if input=='no':
+        info=input()
+        if info=='no':
             print('no problem')
         else:
             print('choose a password for the above introduced username')
